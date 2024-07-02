@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG11-task1: Build a personal website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section data-testid="main-section">
+      <header data-testid="header">
+        <h1>My goals in web development for the next two years</h1>
+      </header>
+      <main>
+        <article>
+          <figure class="details">
+            <img
+              src="./images/slackprofilepic copy.jpg"
+              alt="profile-image"
+              data-testid="slackProfilePicture"
+            />
+            <figcaption>
+              <h3 data-testid="slackDisplayName">Iam_Perfection</h3>
+              <h4 id="currentTime" data-testid="currentTimeUTC"></h4>
+              <h4 id="currentDay" data-testid="currentDay"></h4>
+              <p>
+                Email:
+                <a
+                  href="mailto:akinbinuayomide1@gmail.com"
+                  data-testid="slackEmail"
+                >
+                  akinbinuayomide1@gmail.com
+                </a>
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+        <div class="goals" data-testid="goals-section">
+          <h3>My goals in tech</h3>
+          <ul data-testid="goals-list">
+            <li>Master React.js and Next.js</li>
+            <li>Deepen my knowledge of javascript</li>
+            <li>Master Node.js to become a fullstack web developer</li>
+            <li>Contribute to a lot open source projects</li>
+            <li>Build a lot of projects to solve problems</li>
+            <li>Land my first role as a web developer</li>
+          </ul>
+        </div>
+      </main>
+
+      <div class="footer" data-testid="footer">
+        <a href="https://hng.tech/learn">HNG Learn</a>
+        <a href="https://keyword.dog/"> Keyword Dog </a>
+        <a href="https://scrapeanyweb.site/">Scrape Any Web</a>
+      </div>
+    </section>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
