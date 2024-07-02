@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById(
       "currentTime"
-    ).textContent = `Current Time in UTC: ${utcTime}`;
+    ).textContent = `Current Time (UTC): ${utcTime}`;
     document.getElementById(
       "currentDay"
     ).textContent = `Current Day: ${dayOfWeek}`;
